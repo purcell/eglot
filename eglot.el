@@ -97,7 +97,8 @@ language-server/bin/php-language-server.php"))
                                  . ("solargraph" "socket" "--port"
                                     :autoport))
                                 (haskell-mode . ("hie-wrapper"))
-                                (kotlin-mode . ("kotlin-language-server"))
+                                (elm-mode . ("elm-language-server"))
+				(kotlin-mode . ("kotlin-language-server"))
                                 (go-mode . ("gopls"))
                                 ((R-mode ess-r-mode) . ("R" "--slave" "-e"
                                                         "languageserver::run()"))
